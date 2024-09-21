@@ -320,10 +320,13 @@ select:
             - micro_wake_word.start
 
 external_components:
-  - source: github://expressif/esp-adf@master
+  - source:
+      url: https://github.com/esphome/esphome.git
+      ref: pull/5230/head
+      type: git
     components:
       - esp_adf
-    refresh: 0s
+  refresh: 0s
   - source: github://jesserockz/esphome-components
     components: [file]
     refresh: 0s
