@@ -320,7 +320,7 @@ select:
             - micro_wake_word.start
 
 external_components:
-  - source: github://esphome/esphome/pr#5230
+  - source: github://expressif/esp-adf@master
     components:
       - esp_adf
     refresh: 0s
