@@ -320,8 +320,7 @@ select:
             - micro_wake_word.start
 
 external_components:
-  - source: https://github.com/esphome/esphome.git
-      ref: pull/5230/head
+  - source: https://github.com/esphome/esphome.git@pull/5230/head
     components:
       - esp_adf
   refresh: 0s
